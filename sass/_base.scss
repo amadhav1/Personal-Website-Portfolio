@@ -1,1 +1,11 @@
   // custom css
+  $footer-background-color : $grey-dark !important;
+
+  footer.is-dark {
+    background-color: $grey-dark !important;
+
+  }
+  nav.is-dark {
+    background-color: $grey-dark !important;
+
+  }
