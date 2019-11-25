@@ -7998,3 +7998,16 @@ nav.is-dark {
 
 .block--content p {
   margin-bottom: 15px; }
+
+.columns.columns-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .columns.columns-flex .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+.columns .card .content {
+  padding: 0.75rem 0 2rem; }
