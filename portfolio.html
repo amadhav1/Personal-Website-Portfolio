@@ -7,28 +7,54 @@
 
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Document</title>
+    <script 
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+    <title>Web Portfolio</title>
 </head>
 <body>
     <div class="container">
         <div class="block block--header">
-            <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-				<div class="navbar-brand">
-					<a class="navbar-item">
-						<h1 class="title is-3 has-text-white">Aaron Media</h1>
-					</a>
-			
-				</div>
-				<div class="navbar-start is-active">
-					<a class="navbar-item">Home</a>
-					<a class="navbar-item">About</a>
-					<a class="navbar-item">Contact</a>
-
-				</div>
-				
-
-			</nav>
+                <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+                        <div class="navbar-brand">
+                                <a class="navbar-item">
+                                        <h1 class="title is-3 has-text-white">Aaron Media</h1>
+                                </a>
+                                
+                                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+                                        <span aria-hidden="true"></span>
+                                        <span aria-hidden="true"></span>
+                                        <span aria-hidden="true"></span>
+                                </a>
+                        </div>
+                                      
+                        <div id="navbarBasic" class="navbar-menu">
+                                <div class="navbar-start">
+                                        <a class="navbar-item">
+                                        Home
+                                        </a>
+                                
+                                        <a class="navbar-item">
+                                        Resume
+                                        </a>
+                                
+                                        <a class="navbar-item">
+                                        skills
+                                        </a>
+                                        <a class="navbar-item">
+                                        Website examples
+                                        </a>
+                                        <a class="navbar-item">
+                                                Conact
+                                        </a>
+                                </div>
+                                      
+                                          
+                        </div>
+                </nav>
         </div>
+        
         <div class="block block--content">
                 <div class="columns columns-flex">
 
@@ -233,73 +259,481 @@
                         
                         </div>
 
-                                <!--  card 7-->
-                                <div class="column is-3-desktop is-6-tablet is-12-mobile">
-                            
-                                                <div class="card">
-                                                        <header class="card-header">
-                                                                <p class="card-header-title">
-                                                                        CTI
-                                                                </p>
-                                        
-                                                        </header>
-                                                        <div class="card-image">
-                                                                <figure class="image">
-                                                                <img src="_images/CTI-screenshot.png" alt="CTI website screenshot">
-                                                                </figure>
-                                                        </div>
-                                                        <div class="content">   
-                                                                        <ul>
-                                                                                <li>Built Using WordPress</li>
-                                                                                <li>Custom Built Template
-                                                                                        <ul>
-                                                                                                <li>Developed Theme from PSD</li>
-                                                                                                <li>Built all code including css for theme</li>
-                                                                                        </ul>
-                                                                                </li>
+                        <!--  card 7-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
                         
-                                                                        </ul>
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                        CTI
+                                                </p>
                         
-                                                                </div>
-                                                
-                                                
-                                                </div>
-                                    
+                                        </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                <img src="_images/CTI-screenshot.png" alt="CTI website screenshot">
+                                                </figure>
                                         </div>
-        
-                                <!--  card 8-->
-                                <div class="column is-3-desktop is-6-tablet is-12-mobile">
-                        
-                                        <div class="card">
-                                                <header class="card-header">
-                                                        <p class="card-header-title">
-                                                                ShadowObjects
-                                                        </p>
+                                        <div class="content">   
+                                                <ul>
+                                                        <li>Built Using WordPress</li>
+                                                        <li>Custom Built Template
+                                                                <ul>
+                                                                        <li>Developed Theme from PSD</li>
+                                                                        <li>Built all code including css for theme</li>
+                                                                </ul>
+                                                        </li>
+
+                                                </ul>
+                
+                                        </div>
                                         
-                                                </header>
-                                                <div class="card-image">
-                                                        <figure class="image">
-                                                                <img src="_images/shadow-objects-screenshot.png" alt="ShadowObjects website screenshot">
-                                                        </figure>
-                                                </div>
-                                                <div class="content">   
-                                                        <ul>
-                                                                <li>Built Using WordPress</li>
-                                                                <li>Custom Built Template
-                                                                        <ul>
-                                                                                <li>Developed Theme from PSD</li>
-                                                                                <li>Built all code including css for theme</li>
-                                                                        </ul>
-                                                                </li>
-        
-                                                        </ul>
-        
-                                                </div>
+                                        
+                                </div>
                                 
+                        </div>
+        
+                        <!--  card 8-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                        ShadowObjects
+                                                </p>
+                                
+                                        </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                        <img src="_images/shadow-objects-screenshot.png" alt="ShadowObjects website screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="content">   
+                                                <ul>
+                                                        <li>Built Using WordPress</li>
+                                                        <li>Custom Built Template
+                                                                <ul>
+                                                                        <li>Developed Theme from PSD</li>
+                                                                        <li>Built all code including css for theme</li>
+                                                                </ul>
+                                                        </li>
+
+                                                </ul>
+
                                         </div>
                         
                                 </div>
-                        </div>                  
+                
+                        </div>
+                </div>                  
+                <div class="columns columns-flex">
+
+                        <!-- Card 9-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                                Buy Hafele
+                                                </p>
+
+                                                </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                <img src="_images/buyhafele-screenshot.png" alt="Buyhafele Screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="content">   
+                                                <ul>
+                                                        <li>Assisted with Content Migration</li>
+                                                        <li>Built Using WordPress
+                                                                <ul>
+                                                                        <li>Modified Templates to suit our needs</li>
+                                                                        <li>Integrated with Instagram API</li>
+                                                                        <li>Customized theme to Limit user options in dashboard</li>
+                                                                        <li>Enabled Single Sign-on with University user cradentials</li>
+                                                                </ul>
+                                                        </li>
+
+                                                </ul>
+
+        
+                                        </div>
+                                
+                                </div>
+                        
+                        </div>
+                
+                        <!--  card 10-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                        
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                                SMOY
+                                                </p>
+        
+                                                </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                <img src="_images/mt-smoy-screenshot.png" alt="MilitaryTimes SMOY screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="content">   
+                                                <ul>
+                                                        <li>All of the tasks from HSA Main Site</li>
+                        
+                                                        <li>Developed custom child themes         
+                                                        </li>
+
+                                                </ul>
+        
+                                        </div>
+                                
+                                
+                                </div>
+                        
+                        </div>
+        
+                        <!--  card 11-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                        
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                                BHA Calculator
+                                                </p>
+                        
+                                        </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                <img src="_images/Bha-Calculator-screenshot.png" alt="BHA Calculator screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="content">   
+                                                <ul>
+                                                        <li>Built Using WordPress</li>
+                                                        <li>Custom Built Template
+                                                                <ul>
+                                                                        <li>Developed Theme from PSD</li>
+                                                                        <li>Built all code including css for theme</li>
+                                                                </ul>
+                                                        </li>
+
+                                                </ul>
+                
+                                        </div>
+                                        
+                                        
+                                </div>
+                                
+                        </div>
+                
+                        <!--  card 12-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                        
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                                100 Most Influential People
+                                                </p>
+                                
+                                        </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                        <img src="_images/100-Most-Influential-screenshot.png" alt="100 most influential people screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="content">   
+                                                <ul>
+                                                        <li>Built Using WordPress</li>
+                                                        <li>Custom Built Template
+                                                                <ul>
+                                                                        <li>Developed Theme from PSD</li>
+                                                                        <li>Built all code including css for theme</li>
+                                                                </ul>
+                                                        </li>
+
+                                                </ul>
+        
+                                        </div>
+                                
+                                </div>
+                        
+                        </div>
+                </div>  
+                <div class="columns columns-flex">
+
+                        <!-- Card 13-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                                ShowScout
+                                                </p>
+
+                                                </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                <img src="_images/AUSA-screenshot.png" alt="AUSA ShowScout Screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="content">   
+                                                <ul>
+                                                        <li>Assisted with Content Migration</li>
+                                                        <li>Built Using WordPress
+                                                                <ul>
+                                                                        <li>Modified Templates to suit our needs</li>
+                                                                        <li>Integrated with Instagram API</li>
+                                                                        <li>Customized theme to Limit user options in dashboard</li>
+                                                                        <li>Enabled Single Sign-on with University user cradentials</li>
+                                                                </ul>
+                                                        </li>
+
+                                                </ul>
+
+        
+                                        </div>
+                                
+                                </div>
+                        
+                        </div>
+                
+                        <!--  card 14-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                        
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                                Gettysburg
+                                                </p>
+        
+                                                </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                <img src="_images/Gettysburg-screenshot.png" alt="Gettysburg screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="content">   
+                                                <ul>
+                                                        <li>All of the tasks from HSA Main Site</li>
+                        
+                                                        <li>Developed custom child themes         
+                                                        </li>
+
+                                                </ul>
+        
+                                        </div>
+                                
+                                
+                                </div>
+                        
+                        </div>
+                
+                        <!--  card 15-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                        
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                                C4ISR
+                                                </p>
+                        
+                                        </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                <img src="_images/c4isr-screenshot.png" alt="C4ISR screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="content">   
+                                                <ul>
+                                                        <li>Built Using WordPress</li>
+                                                        <li>Custom Built Template
+                                                                <ul>
+                                                                        <li>Developed Theme from PSD</li>
+                                                                        <li>Built all code including css for theme</li>
+                                                                </ul>
+                                                        </li>
+
+                                                </ul>
+                
+                                        </div>
+                                        
+                                        
+                                </div>
+                                
+                        </div>
+                        
+                        <!--  card 16-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                        
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                                Mil-Mall
+                                                </p>
+                                
+                                        </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                        <img src="_images//Mil-Mall-screenshot.png" alt="Mil-Mall screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="content">   
+                                                <ul>
+                                                        <li>Built Using WordPress</li>
+                                                        <li>Custom Built Template
+                                                                <ul>
+                                                                        <li>Developed Theme from PSD</li>
+                                                                        <li>Built all code including css for theme</li>
+                                                                </ul>
+                                                        </li>
+
+                                                </ul>
+        
+                                        </div>
+                                
+                                </div>
+                        
+                        </div>
+                </div>  
+               
+        </div>  
+        <div class="columns columns-flex">
+
+                <!-- Card 17-->
+                <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                        <div class="card">
+                                <header class="card-header">
+                                        <p class="card-header-title">
+                                                        GGMC
+                                        </p>
+
+                                        </header>
+                                <div class="card-image">
+                                        <figure class="image">
+                                        <img src="_images/ggmc-screenshot.png" alt="GGMC Screenshot">
+                                        </figure>
+                                </div>
+                                <div class="content">   
+                                        <ul>
+                                                <li>Assisted with Content Migration</li>
+                                                <li>Built Using WordPress
+                                                        <ul>
+                                                                <li>Modified Templates to suit our needs</li>
+                                                                <li>Integrated with Instagram API</li>
+                                                                <li>Customized theme to Limit user options in dashboard</li>
+                                                                <li>Enabled Single Sign-on with University user cradentials</li>
+                                                        </ul>
+                                                </li>
+
+                                        </ul>
+
+
+                                </div>
+                        
+                        </div>
+                
+                </div>
+                
+                <!--  card 18-->
+                <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                
+                        <div class="card">
+                                <header class="card-header">
+                                        <p class="card-header-title">
+                                                        OffDuty+
+                                        </p>
+
+                                        </header>
+                                <div class="card-image">
+                                        <figure class="image">
+                                        <img src="_images/OFFduty+-screenshot.png" alt="OffDuty+ screenshot">
+                                        </figure>
+                                </div>
+                                <div class="content">   
+                                        <ul>
+                                                <li>All of the tasks from HSA Main Site</li>
+                
+                                                <li>Developed custom child themes         
+                                                </li>
+
+                                        </ul>
+
+                                </div>
+                        
+                        
+                        </div>
+                
+                </div>
+                
+                <!--  card 19-->
+                <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                
+                        <div class="card">
+                                <header class="card-header">
+                                        <p class="card-header-title">
+                                                        PT365
+                                        </p>
+                
+                                </header>
+                                <div class="card-image">
+                                        <figure class="image">
+                                        <img src="_images/PT365-screenshot.png" alt="PT365 screenshot">
+                                        </figure>
+                                </div>
+                                <div class="content">   
+                                        <ul>
+                                                <li>Built Using WordPress</li>
+                                                <li>Custom Built Template
+                                                        <ul>
+                                                                <li>Developed Theme from PSD</li>
+                                                                <li>Built all code including css for theme</li>
+                                                        </ul>
+                                                </li>
+
+                                        </ul>
+        
+                                </div>
+                                
+                                
+                        </div>
+                        
+                </div>
+                        
+                <!--  card 20-->
+                <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                
+                        <div class="card">
+                                <header class="card-header">
+                                        <p class="card-header-title">
+                                                        ABA Email
+                                        </p>
+                        
+                                </header>
+                                <div class="card-image">
+                                        <figure class="image">
+                                                <img src="_images/pathways-email.png" alt="Pathways email screenshot">
+                                        </figure>
+                                </div>
+                                <div class="content">   
+                                        <ul>
+                                                <li>Built Using WordPress</li>
+                                                <li>Custom Built Template
+                                                        <ul>
+                                                                <li>Developed Theme from PSD</li>
+                                                                <li>Built all code including css for theme</li>
+                                                        </ul>
+                                                </li>
+
+                                        </ul>
+
+                                </div>
+                                
+                        </div>
+                        
+                </div>
+                         
+                
                 
         </div>
         <div clas="block">  
@@ -314,5 +748,18 @@
             </footer>
         </div>
     </div>
+<script>
+$(document).ready(function() {
+(function() {
+  var burger = document.querySelector('.burger');
+  var nav = document.querySelector('#'+burger.dataset.target);
+ 
+  burger.addEventListener('click', function(){
+    burger.classList.toggle('is-active');
+    nav.classList.toggle('is-active');
+  });
+})();
+});
+</script>
 </body>
 </html>
