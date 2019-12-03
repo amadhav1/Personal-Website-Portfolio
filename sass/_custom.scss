@@ -1,18 +1,36 @@
   // custom css
-  $footer-background-color : $grey-dark !important;
+$footer-background-color : $grey-dark !important;
+ul {
+  margin-left: 2em;
+  margin-top: 1em;    
+  li {
+    list-style: disc;
+    line-height: 1.5;
+    ul {
+      list-style: circle;
+      margin-top: .25rem;
+      li {
+        list-style: circle;
+        line-height: 1.5rem;
+        margin-left: 1.5rem;   
 
-  footer.is-dark {
-    background-color: $grey-dark !important;
-
+      }
+    }
   }
-  nav.is-dark {
+}
+footer.is-dark {
     background-color: $grey-dark !important;
-
-  }
+}
+nav.is-dark {
+  background-color: $grey-dark !important;
+}
 .block {
   &--content {
     p {
-      margin-bottom: 15px;
+      padding: 0.75rem;  
+      &:first-child {
+        padding: 0 0.75rem 0.75rem;   
+      }
     }
   }
 }
@@ -28,5 +46,47 @@
     .content {
       padding: 0.75rem 0 2rem;
     }
+    @media only screen and (min-width: $desktop) {  
+      .card-content{
+        display: none;
+      }
+      &:hover {
+        .card-image {
+          opacity: 80% !important;
+          background-color: #000000 !important;  
+          figure {
+            &.image {
+              img {
+              }
+            }
+          }
+        }
+        .card-content {
+          padding: 0 1.5rem 1.5rem;
+          margin-top:1.5rem;
+          display: block;
+          &.is-overlay-desktop {
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 12px;
+            background:#000;
+            opacity: 80%;  
+            ul {
+              color: #fff;    
+              position: relative;
+              opacity: 100%;
+              li {
+                ul {
+                  li {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }  
   }
 }     

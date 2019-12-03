@@ -7990,20 +7990,6 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-ul {
-  margin-left: 2em;
-  margin-top: 1em; }
-  ul li {
-    list-style: disc;
-    line-height: 1.5; }
-    ul li ul {
-      list-style: circle;
-      margin-top: .25rem; }
-      ul li ul li {
-        list-style: circle;
-        line-height: 1.5rem;
-        margin-left: 1.5rem; }
-
 footer.is-dark {
   background-color: #4a4a4a !important; }
 
@@ -8011,9 +7997,7 @@ nav.is-dark {
   background-color: #4a4a4a !important; }
 
 .block--content p {
-  padding: 0.75rem; }
-  .block--content p:first-child {
-    padding: 0 0.75rem 0.75rem; }
+  margin-bottom: 15px; }
 
 .columns.columns-flex {
   display: -webkit-box;
@@ -8027,25 +8011,3 @@ nav.is-dark {
     display: flex; }
 .columns .card .content {
   padding: 0.75rem 0 2rem; }
-@media only screen and (min-width: 1024px) {
-  .columns .card .card-content {
-    display: none; }
-  .columns .card:hover .card-image {
-    opacity: 80% !important;
-    background-color: #000000 !important; }
-  .columns .card:hover .card-content {
-    padding: 0 1.5rem 1.5rem;
-    margin-top: 1.5rem;
-    display: block; }
-    .columns .card:hover .card-content.is-overlay-desktop {
-      bottom: 0;
-      left: 0;
-      position: absolute;
-      right: 0;
-      top: 12px;
-      background: #000;
-      opacity: 80%; }
-      .columns .card:hover .card-content.is-overlay-desktop ul {
-        color: #fff;
-        position: relative;
-        opacity: 100%; } }
