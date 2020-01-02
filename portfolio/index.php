@@ -31,18 +31,18 @@
                                       
                         <div id="navbarBasic" class="navbar-menu">
                                 <div class="navbar-start">
-                                        <a class="navbar-item">
+                                        <a class="navbar-item" href="index.html">
                                         Home
                                         </a>
                                 
-                                        <a class="navbar-item">
+                                        <a class="navbar-item" href="resume.html">
                                         Resume
                                         </a>
                                 
-                                        <a class="navbar-item">
-                                        skills
+                                        <a class="navbar-item" href="skills.html">
+                                        Skills
                                         </a>
-                                        <a class="navbar-item">
+                                        <a class="navbar-item" href="portfolio.html">
                                         Website examples
                                         </a>
                                         <a class="navbar-item">

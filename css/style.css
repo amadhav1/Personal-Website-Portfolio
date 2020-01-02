@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css?family=Gelasio:400,400i,500,500i,600,600i,700,700i|Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap");
 @-webkit-keyframes spinAround {
   from {
     -webkit-transform: rotate(0deg);
@@ -7990,9 +7991,11 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+body, button, input, select, textarea {
+  font-family: "Lato", sans-serif; }
+
 ul {
-  margin-left: 2em;
-  margin-top: 1em; }
+  margin-left: 2em; }
   ul li {
     list-style: disc;
     line-height: 1.5; }
@@ -8010,10 +8013,30 @@ footer.is-dark {
 nav.is-dark {
   background-color: #4a4a4a !important; }
 
+@media screen and (max-width: 769px) {
+  .block--content {
+    padding: 15px; } }
 .block--content p {
-  padding: 0.75rem; }
+  padding: 0.75rem;
+  word-wrap: break-word; }
   .block--content p:first-child {
     padding: 0 0.75rem 0.75rem; }
+.block--content .title.is-1 {
+  font-family: "Gelasio", serif; }
+.block--content .title--underline {
+  border-bottom: 2px solid #a9a9a9;
+  padding-bottom: .5rem; }
+.block--content .field.is-grouped p:first-child {
+  padding: 0.75rem; }
+
+section.section.article {
+  margin-bottom: 30px;
+  margin-top: 30px; }
+  section.section.article .columns .column {
+    padding-top: 0;
+    padding-bottom: 0; }
+    section.section.article .columns .column p {
+      padding-bottom: 0; }
 
 .columns.columns-flex {
   display: -webkit-box;

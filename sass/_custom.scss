@@ -1,8 +1,21 @@
-  // custom css
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Gelasio:400,400i,500,500i,600,600i,700,700i|Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+// custom css
+
+// define variables
+$family-sans-serif: 'Lato', sans-serif;
+$family-monospace: 'Gelasio', serif;
 $footer-background-color : $grey-dark !important;
+
+// Replace Font Family
+body, button, input, select, textarea {
+font-family: $family-sans-serif;
+}
+
+// Unordered list
 ul {
-  margin-left: 2em;
-  margin-top: 1em;    
+  margin-left: 2em;   
   li {
     list-style: disc;
     line-height: 1.5;
@@ -18,22 +31,72 @@ ul {
     }
   }
 }
+
+// nav & footer clors
 footer.is-dark {
     background-color: $grey-dark !important;
 }
 nav.is-dark {
   background-color: $grey-dark !important;
 }
+
+//block defaults
 .block {
   &--content {
+    @media screen and (max-width: $tablet) {
+      padding: 15px;
+    }
     p {
-      padding: 0.75rem;  
+      padding: 0.75rem; 
+      word-wrap: break-word; 
       &:first-child {
         padding: 0 0.75rem 0.75rem;   
       }
     }
+    
+    .title{
+      &.is-1 {
+          font-family: $family-monospace;
+      }
+      &--underline {
+        border-bottom: 2px solid #a9a9a9;
+        padding-bottom: .5rem;
+
+      }
+    }
+    
+    .field {
+      &.is-grouped {
+        p {
+          &:first-child {
+            padding: 0.75rem;
+          }
+        }
+
+      }
+    }
   }
 }
+// resume
+section{
+  &.section{
+    &.article {
+      margin-bottom: 30px;
+      margin-top: 30px;
+      .columns {
+        .column {
+          padding-top: 0;
+          padding-bottom: 0;
+          p {
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+ } 
+ 
+}
+// card styles
 .columns {
   &.columns-flex {
     display: flex;
