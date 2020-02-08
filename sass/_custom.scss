@@ -53,7 +53,21 @@ nav.is-dark {
         padding: 0 0.75rem 0.75rem;   
       }
     }
-    
+    aside {
+      &.sidebar {
+        .card {
+          footer {
+            &.card-footer {
+              p.card-footer-item {
+                &:first-child {
+                  padding: unset !important;    
+                }
+              }
+            }
+          }
+        }
+      }
+    }
     .title{
       &.is-1 {
           font-family: $family-monospace;
@@ -136,6 +150,7 @@ section{
             top: 12px;
             background:#000;
             opacity: 80%;  
+            padding: 20px;
             ul {
               color: #fff;    
               position: relative;

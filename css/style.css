@@ -8021,6 +8021,8 @@ nav.is-dark {
   word-wrap: break-word; }
   .block--content p:first-child {
     padding: 0 0.75rem 0.75rem; }
+.block--content aside.sidebar .card footer.card-footer p.card-footer-item:first-child {
+  padding: unset !important; }
 .block--content .title.is-1 {
   font-family: "Gelasio", serif; }
 .block--content .title--underline {
@@ -8067,7 +8069,8 @@ section.section.article {
       right: 0;
       top: 12px;
       background: #000;
-      opacity: 80%; }
+      opacity: 80%;
+      padding: 20px; }
       .columns .card:hover .card-content.is-overlay-desktop ul {
         color: #fff;
         position: relative;

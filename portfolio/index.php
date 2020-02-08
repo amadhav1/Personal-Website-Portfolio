@@ -1,61 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script 
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-	crossorigin="anonymous"></script>
-    <title>Web Portfolio</title>
-</head>
-<body>
-    <div class="container">
-        <div class="block block--header">
-                <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-                        <div class="navbar-brand">
-                                <a class="navbar-item">
-                                        <h1 class="title is-3 has-text-white">Aaron Media</h1>
-                                </a>
-                                
-                                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
-                                        <span aria-hidden="true"></span>
-                                        <span aria-hidden="true"></span>
-                                        <span aria-hidden="true"></span>
-                                </a>
-                        </div>
-                                      
-                        <div id="navbarBasic" class="navbar-menu">
-                                <div class="navbar-start">
-                                        <a class="navbar-item" href="index.html">
-                                        Home
-                                        </a>
-                                
-                                        <a class="navbar-item" href="resume.html">
-                                        Resume
-                                        </a>
-                                
-                                        <a class="navbar-item" href="skills.html">
-                                        Skills
-                                        </a>
-                                        <a class="navbar-item" href="portfolio.html">
-                                        Website examples
-                                        </a>
-                                        <a class="navbar-item">
-                                                Conact
-                                        </a>
-                                </div>
-                                      
-                                          
-                        </div>
-                </nav>
-        </div>
-        
-        <div class="block block--content">
+<?php include '../_includes/header.php'; ?> 
                 <div class="columns columns-flex">
 
                         <!-- Card 1-->
@@ -63,12 +6,12 @@
                                 <div class="card">
                                         <header class="card-header">
                                                 <p class="card-header-title">
-                                                        JHSPH flagship site
+                                                        <a href="https://www.jhsph.edu" target="_blank">JHSPH flagship site</a>
                                                 </p>
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/jhsph-homepage-screenshot.jpg" alt="Johns Hopkins School of Public Health Screenshot">
+                                                <img src="../_images/jhsph-homepage-screenshot.jpg" alt="Johns Hopkins School of Public Health Screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -91,12 +34,12 @@
                                 <div class="card">
                                         <header class="card-header">
                                                 <p class="card-header-title">
-                                                        JHSPH Magazine
+                                                        <a href="https://www.magazine.jhsph.edu" target="_blank">JHSPH Magazine</a>
                                                 </p>
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/jhsph-magazine-screenshot.jpg" alt="JHSPH Magazine Screensho">
+                                                <img src="../_images/jhsph-magazine-screenshot.jpg" alt="JHSPH Magazine Screensho">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -124,7 +67,7 @@
                                                 </header>
                                                 <div class="card-image">
                                                         <figure class="image">
-                                                        <img src="_images/jhsph-magazine-demarc-email.jpg" alt="JHSPH Magazine email screenshot">
+                                                        <img src="../_images/jhsph-magazine-demarc-email.jpg" alt="JHSPH Magazine email screenshot">
                                                         </figure>
                                                 </div>
                                                 <div class="card-content is-overlay-desktop">   
@@ -147,12 +90,12 @@
                                 <div class="card">
                                         <header class="card-header">
                                                 <p class="card-header-title">
-                                                        BFSA
+                                                        <a href="http://bfsa.jhu.edu/" target="_blank">BFSA</a>
                                                 </p>
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                        <img src="_images/bfsa-screenshot.png" alt="BFSA website screenshot">
+                                                        <img src="../_images/bfsa-screenshot.png" alt="BFSA website screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -176,12 +119,12 @@
                                 <div class="card">
                                         <header class="card-header">
                                                 <p class="card-header-title">
-                                                        HSA flagship site
+                                                        <a href="https://studentaffairs.jhu.edu/" target="_blank">HSA flagship site</a>
                                                 </p>
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/hsa-screenshot.png" alt="Homewood Student Affairs Screenshot">
+                                                <img src="../_images/hsa-screenshot.png" alt="Homewood Student Affairs Screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -206,12 +149,12 @@
                                 <div class="card">
                                         <header class="card-header">
                                                 <p class="card-header-title">
-                                                        HSA child site
+                                                        <a href="https://studentaffairs.jhu.edu/orientation/" target="_blank">HSA child site</a>
                                                 </p>
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/hsa-orientation-screenshot.png" alt="JHU Homewood Student Affairs Child Site screenshot">
+                                                <img src="../_images/hsa-orientation-screenshot.png" alt="JHU Homewood Student Affairs Child Site screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -236,7 +179,7 @@
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/CTI-screenshot.png" alt="CTI website screenshot">
+                                                <img src="../_images/CTI-screenshot.png" alt="CTI website screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -259,12 +202,12 @@
                                 <div class="card">
                                         <header class="card-header">
                                                 <p class="card-header-title">
-                                                        ShadowObjects
+                                                        <a href="https://shadowobjects.com/" target="_blank">ShadowObjects</a>
                                                 </p>
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                        <img src="_images/shadow-objects-screenshot.png" alt="ShadowObjects website screenshot">
+                                                        <img src="../_images/shadow-objects-screenshot.png" alt="ShadowObjects website screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -293,7 +236,7 @@
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/buyhafele-screenshot.png" alt="Buyhafele Screenshot">
+                                                <img src="../_images/buyhafele-screenshot.png" alt="Buyhafele Screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -318,12 +261,12 @@
                                 <div class="card">
                                         <header class="card-header">
                                                 <p class="card-header-title">
-                                                                SMOY
+                                                                Service Member of the Year
                                                 </p>
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/mt-smoy-screenshot.png" alt="MilitaryTimes SMOY screenshot">
+                                                <img src="../_images/mt-smoy-screenshot.png" alt="MilitaryTimes SMOY screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -352,7 +295,7 @@
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/Bha-Calculator-screenshot.png" alt="BHA Calculator screenshot">
+                                                <img src="../_images/Bha-Calculator-screenshot.png" alt="BHA Calculator screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -376,12 +319,12 @@
                                 <div class="card">
                                         <header class="card-header">
                                                 <p class="card-header-title">
-                                                                100 Most Influential People
+                                                        <a href="https://people.defensenews.com/" target="_blank">100 Most Influential People</a>
                                                 </p>
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                        <img src="_images/100-Most-Influential-screenshot.png" alt="100 most influential people screenshot">
+                                                        <img src="../_images/100-Most-Influential-screenshot.png" alt="100 most influential people screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -411,7 +354,7 @@
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/AUSA-screenshot.png" alt="AUSA ShowScout Screenshot">
+                                                <img src="../_images/AUSA-screenshot.png" alt="AUSA ShowScout Screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -435,7 +378,7 @@
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/Gettysburg-screenshot.png" alt="Gettysburg screenshot">
+                                                <img src="../_images/Gettysburg-screenshot.png" alt="Gettysburg screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -464,7 +407,7 @@
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                <img src="_images/c4isr-screenshot.png" alt="C4ISR screenshot">
+                                                <img src="../_images/c4isr-screenshot.png" alt="C4ISR screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -488,7 +431,7 @@
                                         </header>
                                         <div class="card-image">
                                                 <figure class="image">
-                                                        <img src="_images//Mil-Mall-screenshot.png" alt="Mil-Mall screenshot">
+                                                        <img src="../_images//Mil-Mall-screenshot.png" alt="Mil-Mall screenshot">
                                                 </figure>
                                         </div>
                                         <div class="card-content is-overlay-desktop">   
@@ -505,148 +448,119 @@
                                 </div>          
                         </div>
                 </div>      
-        </div>  
-        <div class="columns columns-flex">
+         
+                <div class="columns columns-flex">
 
-                <!-- Card 17-->
-                <div class="column is-3-desktop is-6-tablet is-12-mobile">
-                        <div class="card">
-                                <header class="card-header">
-                                        <p class="card-header-title">
+                        <!-- Card 17-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
                                                         GGMC
-                                        </p>
-                                </header>
-                                <div class="card-image">
-                                        <figure class="image">
-                                        <img src="_images/ggmc-screenshot.png" alt="GGMC Screenshot">
-                                        </figure>
-                                </div>
-                                <div class="card-content is-overlay-desktop">   
-                                        <ul>
-                                                <li>Assisted with Content Migration</li>
-                                                <li>Built Using WordPress
-                                                        <ul>
-                                                                <li> Updated Content</li>
-                                                                <li>Built Using WordPress
-                                                                        <ul>
-                                                                                <li>Modified paid themes to fit our needs</li>
-                                                                        </ul>
-                                                                </li>       
-                                                        </ul>
-                                                </li>
-                                        </ul>
-                                </div>                  
-                        </div>
-                </div>
-                
-                <!--  card 18-->
-                <div class="column is-3-desktop is-6-tablet is-12-mobile">
-                
-                        <div class="card">
-                                <header class="card-header">
-                                        <p class="card-header-title">
-                                                        OffDuty+
-                                        </p>
+                                                </p>
                                         </header>
-                                <div class="card-image">
-                                        <figure class="image">
-                                        <img src="_images/OFFduty+-screenshot.png" alt="OffDuty+ screenshot">
-                                        </figure>
-                                </div>
-                                <div class="card-content is-overlay-desktop">   
-                                        <ul>
-                                                <li> Updated Content</li>
-                                                <li>Built Using WordPress
-                                                        <ul>
-                                                                <li>Modified paid themes to fit our needs</li>
-                                                        </ul>
-                                                </li>                  
-                                        </ul>                              
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                <img src="../_images/ggmc-screenshot.png" alt="GGMC Screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="card-content is-overlay-desktop">   
+                                                <ul>
+                                                        <li>Assisted with Content Migration</li>
+                                                        <li>Built Using WordPress
+                                                                <ul>
+                                                                        <li> Updated Content</li>
+                                                                        <li>Built Using WordPress
+                                                                                <ul>
+                                                                                        <li>Modified paid themes to fit our needs</li>
+                                                                                </ul>
+                                                                        </li>       
+                                                                </ul>
+                                                        </li>
+                                                </ul>
+                                        </div>                  
                                 </div>
                         </div>
-                </div>
-                
-                <!--  card 19-->
-                <div class="column is-3-desktop is-6-tablet is-12-mobile">
-                
-                        <div class="card">
-                                <header class="card-header">
-                                        <p class="card-header-title">
-                                                        PT365
-                                        </p>
-                                </header>
-                                <div class="card-image">
-                                        <figure class="image">
-                                        <img src="_images/PT365-screenshot.png" alt="PT365 screenshot">
-                                        </figure>
-                                </div>
-                                <div class="card-content is-overlay-desktop">   
-                                        <ul>
-                                                <li> Updated Content</li>
-                                                <li>Built Using WordPress
-                                                        <ul>
-                                                                <li>        Modified paid themes to fit our needs
-                                                                        </li>
-                                                        </ul>
-                                                </li>                                                      
-                                        </ul>      
-                                </div>        
-                        </div>     
-                </div>
                         
-                <!--  card 20-->
-                <div class="column is-3-desktop is-6-tablet is-12-mobile">
-                
-                        <div class="card">
-                                <header class="card-header">
-                                        <p class="card-header-title">
-                                                        ABA Email
-                                        </p>
-                                </header>
-                                <div class="card-image">
-                                        <figure class="image">
-                                                <img src="_images/pathways-email.png" alt="Pathways email screenshot">
-                                        </figure>
+                        <!--  card 18-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                        
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                        OffDuty+
+                                                </p>
+                                                </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                <img src="../_images/OFFduty+-screenshot.png" alt="OffDuty+ screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="card-content is-overlay-desktop">   
+                                                <ul>
+                                                        <li> Updated Content</li>
+                                                        <li>Built Using WordPress
+                                                                <ul>
+                                                                        <li>Modified paid themes to fit our needs</li>
+                                                                </ul>
+                                                        </li>                  
+                                                </ul>                              
+                                        </div>
                                 </div>
-                                <div class="card-content is-overlay-desktop">   
-                                        <ul>
-                                                <li>Created and Modified Email templates that were sent using ExactTarget and L-soft LISTSERV Maestro
-                                                        <ul>
-                                                                <li>Used HTML and CSS to create dynamic html emails</li>
-                                                        </ul>
-                                                </li>                                                      
-                                        </ul> 
-                                </div>                               
-                        </div>                       
-                </div>
-                         
-                
-                
-        </div>
-        <div clas="block">  
-            <footer class="footer is-dark">
-                <div class="content has-text-white">
-                    <h2 class="is-2 has-text-centered has-text-white">U.S. Marine Corps veteran</h2>
-
-                    <p class="has-text-centered">&copy; 2019 Aaron Madhavan
-
-                    </p>
-                </div>
-            </footer>
-        </div>
-    </div>
-<script>
-$(document).ready(function() {
-(function() {
-  var burger = document.querySelector('.burger');
-  var nav = document.querySelector('#'+burger.dataset.target);
- 
-  burger.addEventListener('click', function(){
-    burger.classList.toggle('is-active');
-    nav.classList.toggle('is-active');
-  });
-})();
-});
-</script>
-</body>
-</html>
+                        </div>
+                        
+                        <!--  card 19-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                        
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                        PT365
+                                                </p>
+                                        </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                <img src="../_images/PT365-screenshot.png" alt="PT365 screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="card-content is-overlay-desktop">   
+                                                <ul>
+                                                        <li> Updated Content</li>
+                                                        <li>Built Using WordPress
+                                                                <ul>
+                                                                        <li>        Modified paid themes to fit our needs
+                                                                                </li>
+                                                                </ul>
+                                                        </li>                                                      
+                                                </ul>      
+                                        </div>        
+                                </div>     
+                        </div>
+                                
+                        <!--  card 20-->
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                        
+                                <div class="card">
+                                        <header class="card-header">
+                                                <p class="card-header-title">
+                                                        ABA Email
+                                                </p>
+                                        </header>
+                                        <div class="card-image">
+                                                <figure class="image">
+                                                        <img src="../_images/pathways-email.png" alt="Pathways email screenshot">
+                                                </figure>
+                                        </div>
+                                        <div class="card-content is-overlay-desktop">   
+                                                <ul>
+                                                        <li>Created and Modified Email templates that were sent using ExactTarget and L-soft LISTSERV Maestro
+                                                                <ul>
+                                                                        <li>Used HTML and CSS to create dynamic html emails</li>
+                                                                </ul>
+                                                        </li>                                                      
+                                                </ul> 
+                                        </div>                               
+                                </div>                       
+                        </div>            
+                </div>       
+<?php include '../_includes/footer.php'; ?> 
