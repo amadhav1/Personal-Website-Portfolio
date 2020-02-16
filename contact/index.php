@@ -18,7 +18,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $fname = trim($_REQUEST["fname"]);
 $lname = trim($_REQUEST["lname"]);
 $email = trim($_REQUEST["email"]);
+$botcheck = trim($_REQUEST["botcheck"]);
 $message = trim($_REQUEST["message"]);
+if (!empty($botcheck)) {
+    echo '<div class="block">
+    <article class="message is-danger"><div class="message-body"><p>You are not Human, if you are Human try to re-submit your form.</p></div></article></div>'; }
+else { 
 // Initialize error array.
 $errors = array();
 // Check for a proper First name
@@ -75,7 +80,7 @@ if (!empty($errors)) {
     </div>';
 
     }
-    
+}
   //End of errors array
 }
 ?>
@@ -100,7 +105,7 @@ if (!empty($errors)) {
     </div>
 
     <div class="columns">
-        <div class="column">
+        <div class="column is-half">
                 <div class="field">
                     <label class="label">E-mail Address</label>
                     <div class="control has-icons-left">
@@ -111,6 +116,15 @@ if (!empty($errors)) {
                     </div >
                 </div>   
         </div>   
+
+        <div class="column">
+            <div class="field">
+                <label class="label">Bot check</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="If you are a human, leave this field blank." name="botcheck" value="<?php echo $botcheck ?>">
+                </div>
+            </div>
+        </div>    
     </div>
 
     <div class="columns">
