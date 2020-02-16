@@ -74,8 +74,7 @@ if (!empty($errors)) {
     </div>';}
      else{echo '<div class="block">
         <article class="message is-success"><div class="message-header"><p>Your mail was sent. Thank you!</p></div><div class="message-body"><p>Below is the message that you sent.</p>'; 
-    echo "<p>Message from " . $fname . " " . $lname . " 
-  Email: ".$email."</p>";
+    echo "<p>Message from " . $fname . " " . $lname . "<br />Email: ".$email."</p>";
   echo '</div></article>
     </div>';
 
