@@ -22,7 +22,7 @@ $botcheck = trim($_REQUEST["botcheck"]);
 $message = trim($_REQUEST["message"]);
 if (!empty($botcheck)) {
     echo '<div class="block">
-    <article class="message is-danger"><div class="message-body"><p>You are not Human, if you are Human try to re-submit your form.</p></div></article></div>'; }
+    <article class="message is-warning"><div class="message-body"><p>You are not Human, if you are Human try to re-submit your form.</p></div></article></div>'; }
 else { 
 // Initialize error array.
 $errors = array();
