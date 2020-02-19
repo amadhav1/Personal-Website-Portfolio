@@ -784,7 +784,15 @@
                     </ul>
                 </div>
             </div> 
-
-            
             </section>
+            <div class="block">
+                <div class="buttons">
+                    <a class="button is-link" href="../_pdfs/Aaron.Madhavan_resume2020.pdf" download>
+                        <span class="icon is-small">
+                            <i class="fas fa-file-download"></i>
+                        </span>
+                        <span>Download Resume</span>
+                    </a>
+                </div>
+            </div>
             <?php include '../_includes/footer.php'; ?> 
