@@ -740,5 +740,51 @@
                         <p><span class="has-text-weight-bold">Technologies used:</span> Windows XP, Microsoft Word & Microsoft Access</p>
                     </div>
                 </div>
+               
+            </section>
+            <section class="section article is-paddingless">
+            <div class="columns">
+                <div class="column is-full">
+                    <h4 class="title is-4 title--underline">   
+                        Military Experience
+                    </h4>   
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-one-third">
+                    <h5 class="title is-5">
+                        United States Marine Corps 
+                    </h5>
+                </div>
+                <div class="column is-one-third is-paddingless">
+                    <p class="is-medium">
+                        Various Postings 
+                    </p>        
+                </div>
+                <div class="column is-one-third is-paddingless">
+                    <p class="is-medium">
+                        August 1994 - August 1998 
+                    </p>  
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-full is-paddingless">
+                    <p class="is-medium is-medium is-italic">
+                        Radio Operator   
+                    </p>   
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-full">
+                    <ul>
+                        <li>Participated in Operation “Guardian Retrieval” to evacuate diplomats from Zaire (1997)</li>
+                        <li>Received an Honorable Discharge in 1998</li>
+                        <li>Maintained and Troubleshot all radio equipment and vehicle</li>      
+                        <li>Set up radio equipment, and established communications with other radio site</li>           
+                    </ul>
+                </div>
+            </div> 
+
+            
             </section>
             <?php include '../_includes/footer.php'; ?> 

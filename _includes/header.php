@@ -8,7 +8,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     
                 
-    <link rel="stylesheet" type="text/css" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/css/style.css">
   
     <script 
         src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -21,16 +21,16 @@
                 if($_SERVER['SCRIPT_NAME'] == "/index.php"){
                         $site_title = "website";
                 } 
-                elseif($_SERVER['SCRIPT_NAME'] == "/skills/index.php"){
+                elseif($_SERVER['SCRIPT_NAME'] == "/skills/"){
                         $site_title = "skills";
                 }
-                elseif($_SERVER['SCRIPT_NAME'] == "/resume/index.php"){
+                elseif($_SERVER['SCRIPT_NAME'] == "/resume/"){
                         $site_title = "resume";
                 }
-                elseif($_SERVER['SCRIPT_NAME'] == "/portfolio/index.php"){
+                elseif($_SERVER['SCRIPT_NAME'] == "/portfolio/"){
                         $site_title = "portfolio";
                 }
-                elseif($_SERVER['SCRIPT_NAME'] == "/contact/index.php"){
+                elseif($_SERVER['SCRIPT_NAME'] == "/contact/"){
                         $site_title = "contact form";
                 }
                 else {
@@ -56,7 +56,7 @@
         <div class="block block--header">
             <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
                     <div class="navbar-brand">
-                            <a class="navbar-item">
+                            <a class="navbar-item" href="https://<?php echo $_SERVER['SERVER_NAME'];?>">
                                     <h1 class="title is-3 has-text-white">Aaron Madhavan</h1>
                             </a>
                             

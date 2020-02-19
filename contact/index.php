@@ -104,7 +104,7 @@ if (!empty($errors)) {
     </div>
 
     <div class="columns">
-        <div class="column is-half">
+        <div class="column">
                 <div class="field">
                     <label class="label">E-mail Address</label>
                     <div class="control has-icons-left">
@@ -116,15 +116,10 @@ if (!empty($errors)) {
                 </div>   
         </div>   
 
-        <div class="column">
-            <div class="field">
-                <label class="label">Bot check</label>
-                <div class="control">
-                    <input class="input" type="text" placeholder="If you are a human, leave this field blank." name="botcheck" value="<?php echo $botcheck ?>">
-                </div>
-            </div>
-        </div>    
+       
+          
     </div>
+    <input class="input" type="hidden" placeholder="If you are a human, leave this field blank." name="botcheck" value="<?php echo $botcheck ?>">
 
     <div class="columns">
         <div class="column">
