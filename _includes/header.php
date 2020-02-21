@@ -21,16 +21,16 @@
                 if($_SERVER['SCRIPT_NAME'] == "/index.php"){
                         $site_title = "website";
                 } 
-                elseif($_SERVER['SCRIPT_NAME'] == "/skills/"){
+                elseif($_SERVER['SCRIPT_NAME'] == "/skills/index.php"){
                         $site_title = "skills";
                 }
-                elseif($_SERVER['SCRIPT_NAME'] == "/resume/"){
+                elseif($_SERVER['SCRIPT_NAME'] == "/resume/index.php"){
                         $site_title = "resume";
                 }
-                elseif($_SERVER['SCRIPT_NAME'] == "/portfolio/"){
+                elseif($_SERVER['SCRIPT_NAME'] == "/portfolio/index.php"){
                         $site_title = "portfolio";
                 }
-                elseif($_SERVER['SCRIPT_NAME'] == "/contact/"){
+                elseif($_SERVER['SCRIPT_NAME'] == "/contact/index.php"){
                         $site_title = "contact form";
                 }
                 else {
@@ -81,7 +81,7 @@
                                     Skills
                                     </a>
                                     <a class="navbar-item" href="/portfolio">
-                                    Website examples
+                                    Website Examples
                                     </a>
                                     <a class="navbar-item" href="/contact">
                                     Contact

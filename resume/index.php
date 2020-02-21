@@ -78,7 +78,7 @@
                 <div class="columns">
                     <div class="column is-full">
                         <h5 class="title is-5">
-                            B.A. Political Science
+                            B.A. in Political Science
                         </h5>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="column is-paddingless">
                     <p class="is-medium">
-                        Big Commerce shopping cart software, CodeIgniter, Drupal, Interwoven TeamSite, Magento, WordPress, Microsoft SharePoint and Saxotech
+                        Big Commerce shopping cart software, CodeIgniter, Drupal, Interwoven TeamSite, Magento, WordPress, Microsoft SharePoint, and Saxotech
                     </p>
                 </div>
             </div>
@@ -196,7 +196,7 @@
                 </div>
                 <div class="column is-paddingless">
                     <p class="is-medium">
-                        Asana, Bugheard, Freshdesk, Jira, MCMS, Redbooth, Teamwork & Basecamp
+                        Asana, Bugheard, Freshdesk, Jira, MCMS, Redbooth, Teamwork and Basecamp
                     </p>
                 </div>
             </div>
@@ -241,7 +241,7 @@
                 </div>
                 <div class="column is-paddingless">
                     <p class="is-medium">
-                        Microsoft Office, Office 365, Adobe Creative Cloud, Adobe Photoshop, Dreamweaver, Notepad++, PHPStorm, Visual Studio Code, Sublime text, and CodeKit
+                        Microsoft Office, Office 365, Adobe Creative Cloud, Adobe Photoshop, Dreamweaver, Notepad++, PHPStorm, Visual Studio Code, Sublime Text, and CodeKit
                     </p>
                 </div>
             </div>
@@ -256,7 +256,7 @@
                     </div>
                     <div class="column is-paddingless">
                         <p class="is-medium">
-                            Google Analytics, Omniture Analytics, Google Fonts, Helios ad server, Brightcove video player, YouTube, and Magpie RSS
+                            Google Analytics, Omniture Analytics, Google Fonts, Helios ad server, Brightcove, YouTube, Ustream, and Magpie RSS
                         </p>
                     </div>
                 </div>
@@ -279,7 +279,7 @@
                
                     <div class="column is-one-third is-paddingless">
                         <p class="is-medium">
-                                Baltimore,MD 
+                                Baltimore, MD 
                         </p>
                         
                     </div>
@@ -316,10 +316,10 @@
                 <div class="columns">
                     <div class="column is-full">
                         <ul>
-                            <li>Work on team to develop custom Drupal website</li>
+                            <li>Work with a team to develop custom Drupal website</li>
                             <li>Build custom websites using SiteExecutive</li>
                             <li>Develop custom emails using MailChimp and other EMS</li>
-                            <li>Diagnose and  troubleshoot a range of website related issues to resolve FreshDesk trouble tickets</li>                        
+                            <li>Diagnose and  troubleshoot a range of website-related issues to resolve FreshDesk trouble tickets</li>                        
                         </ul>
                     </div>
                 </div>
@@ -341,7 +341,7 @@
                 <div class="columns">
                     <div class="column is-full">
                         <ul>
-                            <li>Modified and configured plug-ins and theme to match design and & to add functionality</li>
+                            <li>Modified and configured plug-ins and theme to match the design and & to add functionality</li>
                             <li>Developed custom themes and child themes to meet design requirements</li>
                             <li>Maintained the Tech Store website using Lightspeed</li>                        
                         </ul>
@@ -366,7 +366,7 @@
                     </div>
                     <div class="column is-one-third is-paddingless">
                         <p class="is-medium">
-                                Baltimore,MD 
+                                Baltimore, MD 
                         </p>        
                     </div>
                     <div class="column is-one-third is-paddingless">
@@ -418,8 +418,8 @@
                         <ul>
                             <li>Input Content for websites using the WordPress interface</li>
                             <li>Added new websites using WordPress MU install</li>
-                            <li>Modified and configured plug-ins and themes to match design and & to add functionality</li>  
-                            <li>Launched website and created redirects using .htaccess</li> 
+                            <li>Modified and configured plug-ins and themes to match the design and & to add functionality</li>  
+                            <li>Launched websites and created redirects using .htaccess</li> 
                             <li>Created Email template for Dean’s Newsletter</li>                    
                         </ul>
                     </div>
@@ -587,7 +587,7 @@
                 <div class="columns">
                     <div class="column is-full is-paddingless">
                         <p class="is-medium is-medium is-italic">
-                            Associate Web Master
+                            Associate Webmaster
                         </p>   
                     </div>
                 </div>
@@ -597,7 +597,7 @@
                         <ul>
                             <li>Assisted in the migration of 3 websites from ZenCart to Magento E-commerce</li>
                             <li>Migrated multiple single installs of WordPress over to one Multi-User install of WordPress</li>
-                            <li>Manipulated images using Photoshop for use on website</li>                    
+                            <li>Manipulated images using Photoshop for use on the website</li>                    
                         </ul>
                     </div>
                 </div> 
@@ -640,7 +640,7 @@
                 <div class="columns">
                     <div class="column is-full">
                         <ul>
-                            <li>Developed and debugged 10 Military and government related websites using PHP and MySql</li>
+                            <li>Developed and debugged 10 Military and government-related websites using PHP and MySql</li>
                             <li>Assisted in the migration of 7 websites over from PHP to the Saxotech framework</li>
                             <li>Built microsites using HTML, PHP, CSS, and JavaScript</li>   
                             <li>Created interface to update content  using CodeIgniter  </li>                 
@@ -780,7 +780,7 @@
                         <li>Participated in Operation “Guardian Retrieval” to evacuate diplomats from Zaire (1997)</li>
                         <li>Received an Honorable Discharge in 1998</li>
                         <li>Maintained and Troubleshot all radio equipment and vehicle</li>      
-                        <li>Set up radio equipment, and established communications with other radio site</li>           
+                        <li>Set up radio equipment, and established communications with other radio sites</li>           
                     </ul>
                 </div>
             </div> 
