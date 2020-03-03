@@ -787,7 +787,7 @@
             </section>
             <div class="block">
                 <div class="buttons">
-                    <a class="button is-link" href="../_pdfs/Aaron.Madhavan_resume2020.pdf" download>
+                    <a class="button is-link" href="../_pdfs/aaron.madhavan_resume2020.pdf" download>
                         <span class="icon is-small">
                             <i class="fas fa-file-download"></i>
                         </span>
