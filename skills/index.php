@@ -30,7 +30,7 @@
                                     </li>
                                     <li>Wordpress
                                         <ul>
-                                            <li><Multi-site></Multi-site> and Single site</li>
+                                            <li>Multi-site and Single site</li>
                                             <li>Plug-in Modifications</li>
                                             <li>Template creation and modification</li>
                                         </ul>

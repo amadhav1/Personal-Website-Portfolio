@@ -121,7 +121,7 @@
                 </div>
                 <div class="column is-paddingless">
                     <p class="is-medium">
-                        Big Commerce shopping cart software, CodeIgniter, Drupal, Interwoven TeamSite, Magento, WordPress, Microsoft SharePoint, and Saxotech
+                        Big Commerce, CodeIgniter, Drupal, Interwoven TeamSite, Magento, WordPress, Microsoft SharePoint, and Saxotech
                     </p>
                 </div>
             </div>
