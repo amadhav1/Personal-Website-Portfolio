@@ -36,7 +36,7 @@
                         <div class="card">
                                 <header class="card-header">
                                         <p class="card-header-title">
-                                                <a href="https://www.magazine.jhsph.edu" target="_blank">JHSPH Magazine</a>
+                                                <a href="https://magazine.jhsph.edu" target="_blank">JHSPH Magazine</a>
                                         </p>
                                 </header>
                                 <div class="card-image">
