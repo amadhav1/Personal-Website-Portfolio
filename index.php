@@ -22,12 +22,7 @@
                             
                                                 </span>
                                         </p>
-                                        <p class="card-footer-item">
-                                                <span class="icon is-large">
-                                                        <a href="https://www.facebook.com/AaronMadhavan"><i class="fab fa-facebook fa-lg"></i></a>
-                                                        
-                                                </span>
-                                        </p>
+
                                         <p class="card-footer-item">
                                                 <span class="icon is-large">
                                                         <a href="mailto:aaron.madhavan@gmail.com?subject=website%20&body=I%20saw%20your%20website%20and%20I%20thought%20I%20would%20let%20you%20know%20what%20I%20think." subjectt=><i class="fa fa-envelope fa-lg"></i></a>
